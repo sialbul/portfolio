@@ -19,24 +19,24 @@ function Skills() {
             <br /> <br />
             <div id="skillsDiv">
                 <Row>
-                    <Col xl={3}>
+                    <Col lg={3} xl={3}>
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={css} alt="css" title="CSS" />
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={html} alt="html" title="HTML" />
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={jquery} alt="jquery" title="jQuery" />
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={node} alt="node" title="Node.js" />
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={react} alt="react" title="React.js" />
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={1}>
+                    <Col xs={3} sm={3} md={2} lg={1} xl={1}>
                         <img className="skills" src={jv} alt="jv" title="JavaScript" />
                     </Col>
                 </Row>
