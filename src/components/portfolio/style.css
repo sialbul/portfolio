@@ -7,6 +7,16 @@
 #githubLeft{
     color:white;
 }
+#portfolioDiv{
+    background-color: grey;
+}
+#head{
+    background-color: #ffc107;
+    border: 1px solid black;
+    display: inline;
+    border-radius: 20px;
+    padding: 10px 100px;
+}
 
 a{margin-right: 15px;
 }

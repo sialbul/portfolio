@@ -12,6 +12,8 @@ span{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./code3.jpg);
     opacity: 0.9;
     color: white; 
+    margin-bottom: 0px;
+    height: 550px;
 }
 
 .jumbo_text{

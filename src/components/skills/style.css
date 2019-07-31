@@ -1,6 +1,10 @@
 .skills{
     width: 50%;
 }
+#skillsHead{
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 350px;
+}
 
 #skillsDiv {
     width: 100%;
