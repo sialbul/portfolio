@@ -32,7 +32,7 @@ class Header extends Component {
                             <Nav.Link href="/aboutme">About Me</Nav.Link>
                             <Nav.Link href="/skills">Skills</Nav.Link>
                             <Nav.Link href="/portfolio">Projects</Nav.Link>
-                            <Nav.Link href="https://drive.google.com/file/d/1sQnxMLj-dZC_ySR8kB-StVo4IfPl-ruv/view?usp=sharing"
+                            <Nav.Link href="https://drive.google.com/open?id=1HW6APT-p0XFPqzhgewonfrkSzXMMnlcT"
                                 target="blank" download id="resume">Resume</Nav.Link>
                             <div>
                                 <Button color="warning" onClick={this.toggle}>Contact</Button>
