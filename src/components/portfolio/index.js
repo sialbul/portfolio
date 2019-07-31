@@ -30,7 +30,7 @@ class Portfolio extends Component {
                 <div id="portfolioDiv">
                     <br />
                     <Row>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={hotelWorx} alt="hotelWorx" />
                                 <div className="overlay">
@@ -50,7 +50,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={googlebook} alt="googlebook" />
                                 <div className="overlay">
@@ -68,7 +68,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={OnTrack} alt="OnTrack" />
                                 <div className="overlay">
@@ -87,7 +87,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={clickyGame} alt="Clicky Game" />
                                 <div className="overlay">
@@ -107,7 +107,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={burger} alt="Eat de Burger" />
                                 <div className="overlay">
@@ -151,7 +151,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </div>  */}
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={bamazon} alt="Bamazon" />
                                 <div className="overlay">
@@ -170,7 +170,7 @@ class Portfolio extends Component {
                             </div>
                         </Col>
 
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={liriNode} alt="liri-node" />
                                 <div className="overlay">
@@ -190,7 +190,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={rps} alt="Rock Paper Siccors" />
                                 <div className="overlay">
@@ -211,7 +211,7 @@ class Portfolio extends Component {
                             </div>
                         </Col>
 
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={starwars} alt="Starwars" />
                                 <div className="overlay">
@@ -230,7 +230,7 @@ class Portfolio extends Component {
                             </div>
                         </Col>
 
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={cityguide} alt="City Guide" />
                                 <div className="overlay">
@@ -250,7 +250,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={horrorgif} alt="Horror Giphy" />
                                 <div className="overlay">
@@ -271,7 +271,7 @@ class Portfolio extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="container">
                                 <img className="portfolioImg" src={hangman} alt="Hangman" />
                                 <div className="overlay">
