@@ -1,0 +1,19 @@
+#sibelgif {
+  width: 70%;
+  border: 8px groove white;
+  border-radius: 240px;
+}
+
+span{
+    display: none;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./code3.jpg);
+    opacity: 0.9;
+    color: white; 
+}
+
+.jumbo_text{
+    font-size: 20px;
+}
