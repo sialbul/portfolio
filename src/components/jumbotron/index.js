@@ -8,10 +8,10 @@ function JumbotronHead() {
     return (
         <Jumbotron>
             <Row>
-                <Col xs={8} sm={6} md={6} lg={3} xl={2} style={{ margin: "auto 0" }}>
+                <Col xs={8} sm={6} md={4} lg={3} xl={2} style={{ margin: "auto 0" }}>
                     <img id="sibelgif" src={sibelgif} alt="sibelgif" />
                 </Col>
-                <Col xs={12} sm={6} md={6} lg={9} xl={10}>
+                <Col xs={12} sm={12} md={8} lg={9} xl={10}>
                     <Typist>
                         <h2> Hello! I'm Sibel Baslamisli!</h2>
                     </Typist>

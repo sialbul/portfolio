@@ -18,9 +18,18 @@ span{
 .jumbo_text{
     font-size: 20px;
 }
-
-@media only screen and (max-width: 580px) {
+@media only screen  and (min-width: 220px) and (max-width: 340px) {
+    #sibelgif{
+margin-left: 50px;
+    }
+}
+@media only screen  and (min-width: 340px) and (max-width: 580px) {
     #sibelgif{
 margin-left: 80px;
     }
 }
+@media only screen and (min-width: 580px) and (max-width: 762px) {
+    #sibelgif{
+margin-left: 180px;
+    }
+}   
