@@ -8,14 +8,14 @@ function JumbotronHead() {
     return (
         <Jumbotron>
             <Row>
-                <Col xl={3}>
+                <Col xs={8} sm={6} md={6} lg={3} xl={2} style={{ margin: "auto 0" }}>
                     <img id="sibelgif" src={sibelgif} alt="sibelgif" />
                 </Col>
-                <Col xl={9}>
+                <Col xs={12} sm={6} md={6} lg={9} xl={10}>
                     <Typist>
                         <h2> Hello! I'm Sibel Baslamisli!</h2>
                     </Typist>
-                    <br/>
+                    <br />
                     <p className="jumbo_text">Web designer, developer and Environmental Engineering graduate with a strong
                             work ethic and enthusiasm for coding.</p>
                     <p className="jumbo_text">Brings creativity, problem solving skills and a drive for

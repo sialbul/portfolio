@@ -1,5 +1,5 @@
 #sibelgif {
-  width: 70%;
+  width: 100%;
   border: 8px groove white;
   border-radius: 240px;
 }
@@ -13,9 +13,14 @@ span{
     opacity: 0.9;
     color: white; 
     margin-bottom: 0px;
-    height: 550px;
 }
 
 .jumbo_text{
     font-size: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+    #sibelgif{
+margin-left: 80px;
+    }
 }
