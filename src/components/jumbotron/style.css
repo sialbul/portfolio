@@ -1,6 +1,6 @@
 #sibelgif {
   width: 100%;
-  border: 8px groove white;
+  border: 2px solid black;
   border-radius: 240px;
 }
 
@@ -9,14 +9,15 @@ span{
 }
 
 .jumbotron{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./code3.jpg);
-    opacity: 0.9;
-    color: white; 
+    color: black; 
     margin-bottom: 0px;
+    border: 2px solid black;
+    margin-top: 20px;
 }
 
 .jumbo_text{
-    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 24px;
 }
 @media only screen  and (min-width: 220px) and (max-width: 340px) {
     #sibelgif{

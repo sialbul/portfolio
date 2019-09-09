@@ -1,12 +1,26 @@
 .modal-body {
   text-align: center;
   font-size: 24px;
-}
 
+}
+#root > div > div:nth-child(1) > nav{
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: rgba(255, 255, 255, 0.616);
+}
 a {
   color: black;
+  font-size: 20px;
 }
 
 #modalLink {
   margin-left: 20px;
+}
+
+#responsive-navbar-nav > div:nth-child(2) > div > button{
+  font-size: 20px;
+  border:1px solid black;
+
 }

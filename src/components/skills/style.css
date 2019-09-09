@@ -1,8 +1,8 @@
 .skills {
-  width: 100%;
+  width: 50%;
 }
-#skillsHead {
-  background-color: rgba(128, 128, 128, 0.5);
+#skillsDiv {
+  margin-left: 15px;
 }
 
 img {

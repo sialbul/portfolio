@@ -21,7 +21,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                <Navbar collapseOnSelect expand="lg" variant="light">
                     <Navbar.Brand href="/"><h3>M. SIBEL BASLAMISLI</h3></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,8 +29,8 @@ class Header extends Component {
                         </Nav>
                         <Nav>
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/aboutme">About Me</Nav.Link>
-                            <Nav.Link href="/skills">Skills</Nav.Link>
+                            {/* <Nav.Link href="/aboutme">About Me</Nav.Link>
+                            <Nav.Link href="/skills">Skills</Nav.Link> */}
                             <Nav.Link href="/portfolio">Projects</Nav.Link>
                             <Nav.Link href="https://drive.google.com/open?id=1HW6APT-p0XFPqzhgewonfrkSzXMMnlcT"
                                 target="blank" download id="resume">Resume</Nav.Link>

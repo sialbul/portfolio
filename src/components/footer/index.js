@@ -8,8 +8,8 @@ function Footer() {
             <footer className="page-footer font-small">
                 <div className="footer">
                     <a id="modalLink" href="https://www.linkedin.com/in/m-sibel-baslamisli-a14b6a90/" target="blank"
-                        alt="Linkedin"><i class="fa fa-linkedin-square"></i></a>
-                    <a id="modalLink" href="https://github.com/sialbul" target="blank"><i class="fa fa-github"></i></a>
+                        alt="Linkedin"><i className="fa fa-linkedin-square"></i></a>
+                    <a id="modalLink" href="https://github.com/sialbul" target="blank"><i className="fa fa-github"></i></a>
                     <a href="mailto:sibaslamisli@gmail.com"> &#9993; sibaslamisli@gmail.com </a> <br />
                     Copyright © 2019 Sibel Baslamisli
 </div>

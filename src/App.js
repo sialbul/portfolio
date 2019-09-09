@@ -10,7 +10,7 @@ import Home from "./components/home";
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
       <Router>
         <Header />
         <Route exact strict path="/" component={Home} />

@@ -292,10 +292,9 @@ class Portfolio extends Component {
                             </div>
                         </Col>
                     </Row>
+                    
                 </div>
             </div>
-
-
         );
     }
 }
