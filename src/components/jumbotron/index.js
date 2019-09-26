@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Jumbotron, Row, Col } from 'react-bootstrap';
-import sibelgif from "./sibel.jpg"
+import sibelgif from "./sibel.gif"
 import Typist from 'react-typist';
 
 function JumbotronHead() {
@@ -13,7 +13,7 @@ function JumbotronHead() {
                 </Col>
                 <Col xs={12} sm={12} md={8} lg={9} xl={10}>
                     <Typist>
-                        <h2> Hello! I'm Sibel!</h2>
+                        <h2> Hi! I'm Sibel!</h2>
                     </Typist>
                     <br />
                     <p className="jumbo_text">Web designer, developer and Environmental Engineering graduate with a strong

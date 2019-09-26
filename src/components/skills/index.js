@@ -16,7 +16,7 @@ function Skills() {
         <div id="skillsHead">
             <br /><br />
             <Typist>
-                <h2 id="head">Skills</h2>
+                <h2 id="head">SKILLS</h2>
             </Typist>
             <br /> <br /> <br />
 

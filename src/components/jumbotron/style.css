@@ -9,10 +9,11 @@ span{
 }
 
 .jumbotron{
-    color: black; 
+    color: white; 
     margin-bottom: 0px;
     border: 2px solid black;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
 }
 
 .jumbo_text{

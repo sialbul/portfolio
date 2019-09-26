@@ -24,7 +24,7 @@ class Portfolio extends Component {
             <div id="portfolioDiv"> 
                 <br /><br />
                 <Typist>
-                    <h2 id="head">Portfolio</h2>
+                    <h2 id="head">PROJECTS</h2>
                 </Typist>
                 <br /><br />
                 <div id="portfolioDiv">
