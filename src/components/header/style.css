@@ -27,12 +27,13 @@ body
   color: black;
 }
 #root > div > div:nth-child(1) > nav {
-  border: 2px solid black;
+  border: 2px solid rgb(153, 243, 17);
   border-left: none;
   border-right: none;
   border-top: none;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.253);
+  
+  /* background-color: rgba(0, 0, 0, 0.253); */
 }
 
 a {
@@ -48,4 +49,7 @@ a {
 #responsive-navbar-nav > div:nth-child(2) > div > button {
   font-size: 20px;
   border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }

@@ -2,7 +2,8 @@
   width: 50%;
 }
 #skillsDiv {
-  margin-left: 15px;
+  max-width: 90%;
+  margin: 0px 60px;
 }
 
 img {

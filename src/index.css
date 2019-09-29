@@ -5,8 +5,8 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom, #ddeaf4, #9cb3cd, #657ea8, #384a80, #151856);}
-
+  background-image: linear-gradient(to bottom, #f7fafd, #dadde0, #bec0c4, #a3a4a8, #89898d);}
+  
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

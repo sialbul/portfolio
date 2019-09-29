@@ -7,6 +7,9 @@ import Portfolio from "./components/portfolio/index";
 import Footer from "./components/footer/index";
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import Home from "./components/home";
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
+import { whileStatement } from '@babel/types';
+
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
+        <ScrollUpButton
+        style={{backgroundColor: "white"}}
+        />
       </Router>
 
     </div>

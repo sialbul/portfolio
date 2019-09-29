@@ -36,9 +36,9 @@ class Portfolio extends Component {
                                 <div className="overlay">
                                     <div className="text">
                                         <p id="exp"> Hotel Worx is a property management system and is suitable for
-                                            the management of all sizes and types of accommodation facilities. It is
+                                            the management of all sizes and types of accommodation facilities. <br/>It is
                                             implemented using React.js, MySQL and Passport.
-                                            <br /> </p>
+                                            <br/> </p>
                                         <a target="blank" title="Visit Website"
                                             href="https://hotelworx.herokuapp.com/login">
                                             <i id="githubLeft" className="fa fa-globe"></i>
@@ -55,7 +55,7 @@ class Portfolio extends Component {
                                 <img className="portfolioImg" src={googlebook} alt="googlebook" />
                                 <div className="overlay">
                                     <div className="text">
-                                        <p id="exp"> The application is a React-based Google Books Search. It is
+                                        <p id="exp"> The application is a React-based Google Books Search.<br/> It is
                                             implemented using Node, Express and MongoDB.
                                             <br /> </p>
                                         <a target="blank" title="Visit Website"

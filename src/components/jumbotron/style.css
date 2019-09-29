@@ -4,34 +4,37 @@
   border-radius: 240px;
 }
 
-span{
-    display: none;
+span {
+  display: none;
 }
 
-.jumbotron{
-    color: white; 
-    margin-bottom: 0px;
-    border: 2px solid black;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.719);
+.jumbotron {
+  color: white;
+  margin-bottom: 0px;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.719);
 }
 
-.jumbo_text{
-    font-family: 'Goudy Bookletter 1911', serif;
-    font-size: 24px;
+.jumbo_text {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-size: 24px;
 }
-@media only screen  and (min-width: 220px) and (max-width: 340px) {
-    #sibelgif{
-margin-left: 50px;
-    }
+@media only screen and (min-width: 220px) and (max-width: 340px) {
+  #sibelgif {
+    margin-left: 50px;
+  }
 }
-@media only screen  and (min-width: 340px) and (max-width: 580px) {
-    #sibelgif{
-margin-left: 80px;
-    }
+@media only screen and (min-width: 340px) and (max-width: 580px) {
+  #sibelgif {
+    margin-left: 80px;
+  }
 }
 @media only screen and (min-width: 580px) and (max-width: 762px) {
-    #sibelgif{
-margin-left: 180px;
-    }
-}   
+  #sibelgif {
+    margin-left: 180px;
+  }
+}
