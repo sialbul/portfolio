@@ -16,10 +16,8 @@ span {
   border-right: none;
   border-top: none;
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.719);
-}
-
-.jumbo_text {
+  background-image: linear-gradient(to bottom, #90b2c6, #708b9f, #52667a, #364355, #1b2333);}
+    .jumbo_text {
   font-family: "Goudy Bookletter 1911", serif;
   font-size: 24px;
 }
