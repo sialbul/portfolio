@@ -2,7 +2,7 @@
   width: 100%;
   margin-bottom: 30px;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 5px;
   height: 250px;
 }
 #githubLeft{
@@ -16,7 +16,7 @@
     border-right: none;
     border-top: none;
     display: inline;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px 100px;
     color: black;
 }
@@ -47,7 +47,7 @@ img {
   height: 0;
   transition: 0.5s ease;
   z-index: 1;
-  border-radius: 20px;
+  border-radius: 5px;
  
 }
 .container:hover .overlay {

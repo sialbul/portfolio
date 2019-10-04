@@ -8,7 +8,29 @@ import node from "./node.png";
 import react from "./react.png";
 import jv from "./jv.png"
 import Typist from 'react-typist';
-import {RemoveScroll} from 'react-remove-scroll';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
+
+
 
 function Skills() {
     return (
@@ -21,26 +43,39 @@ function Skills() {
             <br /> <br /> <br />
 
             <div id="skillsDiv">
-                <Row>                   
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={css} alt="css" title="CSS" />
-                    </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={html} alt="html" title="HTML" />
-                    </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={jquery} alt="jquery" title="jQuery" />
-                    </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={node} alt="node" title="Node.js" />
-                    </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={react} alt="react" title="React.js" />
-                    </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} xl={2}>
-                        <img className="skills" src={jv} alt="jv" title="JavaScript" />
-                    </Col>
-                </Row>
+                <Carousel slideToSlide={2} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={1200}	responsive={responsive}>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={css} alt="css" title="CSS" />
+                        </Col>
+                    </div>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={html} alt="html" title="HTML" />
+                        </Col>
+                    </div>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={jquery} alt="jquery" title="jQuery" />
+                        </Col>
+                    </div>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={node} alt="node" title="Node.js" />
+                        </Col>
+                    </div>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={react} alt="react" title="React.js" />
+                        </Col>
+                    </div>
+                    <div>
+                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                            <img className="skills" src={jv} alt="jv" title="JavaScript" />
+                        </Col>
+                    </div>
+                </Carousel>
+
                 <br /><br />
             </div>
         </div>
