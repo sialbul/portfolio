@@ -43,7 +43,7 @@ function Skills() {
             <br /> <br /> <br />
 
             <div id="skillsDiv">
-                <Carousel slideToSlide={2} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={1200}	responsive={responsive}>
+                <Carousel   infinite={true} swipeable={true} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={1200}	responsive={responsive}>
                     <div>
                         <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={css} alt="css" title="CSS" />
