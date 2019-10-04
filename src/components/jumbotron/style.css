@@ -9,14 +9,14 @@ span {
 }
 
 .jumbotron {
-  color: white;
+  color: black;
   margin-bottom: 0px;
   border: 2px solid black;
   border-left: none;
   border-right: none;
   border-top: none;
   margin-top: 20px;
-  background-image: linear-gradient(to bottom, #90b2c6, #708b9f, #52667a, #364355, #1b2333);}
+  background-image: linear-gradient(to top, #ed234f, #e97348, #dfa564, #dacc9a, #e6ebd9);}
     .jumbo_text {
   font-family: "Goudy Bookletter 1911", serif;
   font-size: 24px;

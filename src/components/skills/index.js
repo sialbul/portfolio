@@ -45,32 +45,32 @@ function Skills() {
             <div id="skillsDiv">
                 <Carousel slideToSlide={2} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={1200}	responsive={responsive}>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                        <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={css} alt="css" title="CSS" />
                         </Col>
                     </div>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                        <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={html} alt="html" title="HTML" />
                         </Col>
                     </div>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                    <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={jquery} alt="jquery" title="jQuery" />
                         </Col>
                     </div>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                    <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={node} alt="node" title="Node.js" />
                         </Col>
                     </div>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                    <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={react} alt="react" title="React.js" />
                         </Col>
                     </div>
                     <div>
-                        <Col xs={10} sm={10} md={8} lg={10} xl={8}>
+                    <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={jv} alt="jv" title="JavaScript" />
                         </Col>
                     </div>

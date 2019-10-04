@@ -3,12 +3,11 @@
 }
 #skillsDiv {
   max-width: 90%;
-  margin: 0px 60px;
+  margin: 0px 120px;
 }
 
 img {
   margin-bottom: 20px;
-  margin-left: 30px;
 }
 
 @media only screen and (max-width: 982px) {
