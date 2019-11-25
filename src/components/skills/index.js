@@ -12,7 +12,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
+        // the naming cany be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5,
     },
@@ -43,7 +43,7 @@ function Skills() {
             <br /> <br /> <br />
 
             <div id="skillsDiv">
-                <Carousel   infinite={true} swipeable={true} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={2000}	responsive={responsive}>
+                <Carousel showDots={true} draggable={true} infinite={true} swipeable={true} arrows={false} showDots={true} autoPlay={true} autoPlaySpeed={2000}	responsive={responsive}>
                     <div>
                         <Col xs={12} sm={12} md={8} lg={10} xl={8}>
                             <img className="skills" src={css} alt="css" title="CSS" />

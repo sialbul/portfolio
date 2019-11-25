@@ -9,7 +9,6 @@ class Header extends Component {
         this.state = {
             modal: false
         };
-
         this.toggle = this.toggle.bind(this);
     }
 
@@ -32,10 +31,10 @@ class Header extends Component {
                             {/* <Nav.Link href="/aboutme">About Me</Nav.Link>
                             <Nav.Link href="/skills">Skills</Nav.Link> */}
                             <Nav.Link href="/portfolio">Projects</Nav.Link>
-                            <Nav.Link href="https://drive.google.com/open?id=1HW6APT-p0XFPqzhgewonfrkSzXMMnlcT"
+                            <Nav.Link href="https://drive.google.com/file/d/1TIAa59-W5sDkV8WWegjqpEy5O39vr-dS/view?usp=sharing"
                                 target="blank" download id="resume">Resume</Nav.Link>
                             <div>
-                                <Button color="warning" onClick={this.toggle}>Contact</Button>
+                                <Button color="warning" onMouseEnter={this.toggle}>Contact</Button>
                                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                                     <ModalHeader toggle={this.toggle}>
                                         <h2><strong>M.SIBEL BASLAMISLI</strong></h2>
