@@ -5,15 +5,17 @@ import JumbotronHead from './components/jumbotron/index';
 import Skills from "./components/skills/index";
 import Portfolio from "./components/portfolio/index";
 import Footer from "./components/footer/index";
-import {Route, BrowserRouter as Router} from 'react-router-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Home from "./components/home";
-import {TinyButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button"; //Add this line Here
 import { whileStatement } from '@babel/types';
 
 
 function App() {
   return (
-      <div className="App">
+    <div className="App">
+        <div className="stars">
+
       <Router>
         <Header />
         <Route exact strict path="/" component={Home} />
@@ -22,9 +24,10 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Footer />
         <ScrollUpButton
-        style={{backgroundColor: "white"}}
+          style={{ backgroundColor: "white" }}
         />
       </Router>
+      </div>
 
     </div>
   );

@@ -52,4 +52,9 @@ a {
   border-left: none;
   border-right: none;
   border-top: none;
-}
+  }
+
+  .navbar {
+    width: 100%;
+    margin-bottom: 10px;;
+  }

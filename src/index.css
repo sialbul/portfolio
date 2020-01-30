@@ -5,7 +5,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #e7f2f9,
     #bbc7d0,
@@ -14,10 +14,28 @@ body {
     #475160,
     #425162,
     #3b5064
-  );
+  ); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: ;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+
+.stars {
+  height: max-content;
+  background-image: url(star6.png);
+  background-repeat: repeat;
+  z-index: -1;
+  animation: animatedBackground 170s linear infinite;
+
 }

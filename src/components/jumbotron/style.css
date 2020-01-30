@@ -1,7 +1,7 @@
 #sibelgif {
   width: 100%;
-  border: 2px solid black;
-  border-radius: 240px;
+  border: 5px solid black;
+  border-radius: 50%;
 }
 
 span {
@@ -9,17 +9,20 @@ span {
 }
 
 .jumbotron {
-  color: black;
-  margin-bottom: 0px;
+  color: ;
   border: 2px solid black;
   border-left: none;
   border-right: none;
   border-top: none;
-  margin-top: 20px;
-  background-image: linear-gradient(to top, #ed234f, #e97348, #dfa564, #dacc9a, #e6ebd9);}
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: inset 20px 0 80px 6px rgb(25, 4, 53);
+}
+
     .jumbo_text {
   font-family: "Goudy Bookletter 1911", serif;
-  font-size: 24px;
+  font-size: 23px;
+  letter-spacing: 1mm;
 }
 @media only screen and (min-width: 220px) and (max-width: 340px) {
   #sibelgif {
