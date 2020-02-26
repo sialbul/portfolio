@@ -31,7 +31,7 @@ class Header extends Component {
                             {/* <Nav.Link href="/aboutme">About Me</Nav.Link>
                             <Nav.Link href="/skills">Skills</Nav.Link> */}
                             <Nav.Link href="/portfolio">Projects</Nav.Link>
-                            <Nav.Link href="https://drive.google.com/file/d/1TIAa59-W5sDkV8WWegjqpEy5O39vr-dS/view?usp=sharing"
+                            <Nav.Link href="https://drive.google.com/file/d/1U1966ZM9n2AapkLFe9fkPw8dJQyZeB31/view?usp=sharing"
                                 target="blank" download id="resume">Resume</Nav.Link>
                             <div>
                                 <Button color="warning" onMouseEnter={this.toggle}>Contact</Button>
