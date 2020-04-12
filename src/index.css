@@ -1,12 +1,10 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Goudy Bookletter 1911", serif,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  /* background-image: linear-gradient(
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Goudy Bookletter 1911", serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    /* background-image: linear-gradient(
     to bottom,
     #e7f2f9,
     #bbc7d0,
@@ -19,19 +17,21 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-@keyframes animatedBackground {
+
+/* @keyframes animatedBackground {
   from {
     background-position: ;
   }
   to {
     background-position: 0 100%;
   }
-}
+} */
 
+
+/* 
 .stars {
   height: max-content;
   background-image: url(star6.png);
@@ -39,4 +39,4 @@ code {
   z-index: -1;
   animation: animatedBackground 170s linear infinite;
 
-}
+} */
